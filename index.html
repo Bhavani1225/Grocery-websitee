@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindCSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div class="bg-[url(./images/bg.jpeg)] min-h-screen px-28 py-5">
+        <!-- navbar -->
+        <nav class="flex items-center">
+            <!-- LOGO -->
+            <img class="w-17 cursor-pointer" src="https://dtgxwmigmg3gc.cloudfront.net/images/651a395aee8bcc12f8385093" alt="no image">
+            <ul class="flex-1 text-center">
+            <li class="list-none inline-block"><a class="text-white px-4 py-3" href="">Home</a></li>
+            <li class="list-none inline-block"><a class="text-white px-4 py-3" href="">About</a></li>
+            <li class="list-none inline-block"><a class="text-white px-4 py-3" href="">Features</a></li>
+            <li class="list-none inline-block"><a class="text-white px-4 py-3" href="">Contact</a></li>
+        </ul>
+        <img class="w-9 cursor-pointer" src="./images/cart.png" alt="CART">
+        </nav>
+        <!-- landing part -->
+          <div class="text-white lg:grid grid-cols-2 gap-4 mt-10 items-center text-center lg:text-start">
+            <div>
+                <h1 class="text-6xl font-semibold leading-normal mb-5">Groceries <br> Delivery in 15 minutes</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum obcaecati debitis delectus repudiandae laboriosam aspernatur reiciendis et id voluptas officia? Amet odio nulla porro officia doloribus velit ea ut molestiae.</p>
+                <div class="mt-10">
+                    <a class="bg-yellow-400 py-3 px-8 rounded-3xl font-medium mr-5 border border-yellow-400 hover:bg-transparent" href="">Order Now</a>
+                    <a href="">Download app &darr;</a>
+                </div>
+            </div>
+            <div>
+                <img src="./images/man.png" alt="man">
+            </div>
+          </div>
+          <!-- Grocery cards -->
+           <div class="my-10 text-white">
+            <h1 class="text-5xl text-center font-semibold">Popular Groceries</h1>
+            <div class="lg:grid grid-cols-3 items-center gap-4 mt-10">
+                <!-- card -->
+                 <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition -transform duration-300 hover:translate-y-3">
+                    <img src="./images/Screenshot 2026-10-09 151627.png" alt="item">
+                    <h3 class="text-lg text-black font-medium">Grocery 1</h3>
+                 </div>
+                 <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition -transform duration-300 hover:translate-y-3">
+                    <img src="./images/Screenshot 2026-10-09 153248.png" alt="item">
+                    <h3 class="text-lg text-black font-medium">Grocery 2</h3>
+                 </div>
+                 <div class="border rounded bg-white p-5 text-center mb-5 lg:mb-0 transition -transform duration-300 hover:translate-y-3">
+                    <img src="./images/Screenshot 2026-10-09 151627.png" alt="item">
+                    <h3 class="text-lg text-black font-medium">Grocery 3</h3>
+                 </div>
+            </div>
+           </div>
+           <!-- contact -->
+            <div class="lg:grid grid-col-4 text-white mb-10">
+               <div class="col-span-1">
+                 <h1 class="text-2xl font-semibold">Contact Us</h1>
+                 <p class="my-3">bhavatharinik11@gmail.com</p>
+                 <p>+91-2477899567</p>
+               </div>
+               <div class="col-span-1">
+               </div>
+               <div class="col-span-2">
+               <h1 class="text-2xl font-semibold">Subscribe to Our Mailbox</h1>
+               <div class="flex mt-3">
+                <input class="p-2 border w-full text-gray-200" type="text" placeholder="E Mail">
+                <button class="bg-yellow-400 px-2 mx-2 rounded">Subscribe</button>
+               </div>
+               </div>
+            </div>
+            <!-- footer -->
+             <footer class="text-white text-center p-3">
+             &copy:All Rights Are Reserved
+             </footer>
+    </div>
+</body>
+</html>
